@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="productName" value="Men's T-shirt"/>
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="productName2" value="Men's Watch"/>
+    <listeners>
+        <listener class-name="testng.retryfailcases.OptimizedReRunListner"/>
+    </listeners>
+    <test verbose="10" preserve-order="true" parallel="false" thread-count="3" name="D:/repo1/clone/TestFolder/Demo/Maven_11_Feb_25">
+        <classes>
+            <class name="testng.basicoftestng.PriorityExample"/>
+        </classes>
+    </test>
+</suite>
