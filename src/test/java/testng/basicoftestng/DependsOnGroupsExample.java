@@ -9,6 +9,7 @@ public class DependsOnGroupsExample {
     public void verifyLogin() {
         Assert.assertTrue(false);
         System.out.println("Verify Login");
+        System.out.println("Good Morning");
     }
 
     @Test(dependsOnGroups = "smoke")

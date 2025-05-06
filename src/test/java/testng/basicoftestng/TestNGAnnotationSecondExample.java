@@ -12,6 +12,7 @@ public class TestNGAnnotationSecondExample {
     @BeforeSuite
     public void beforeSuiteExample(){
         System.out.println("Before Suite Example");
+        System.out.println("Hello All");
     }
 
     @AfterTest
