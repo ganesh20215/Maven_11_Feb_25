@@ -9,11 +9,12 @@ public class PriorityExample {
     @Test(priority = -1, enabled = true)
     public void verifyCaseZ() {
         System.out.println("Verify Case Z");
+		System.out.println("Hello Everyone");
     }
 
     @Test(priority = 'C')
     public void verifyCaseA() {
-        System.out.println("Verify Case A");
+        
     }
 
     @Test(priority = -3)
