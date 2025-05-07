@@ -19,7 +19,6 @@ public class SoftAssertExample {
         sf.assertTrue(userNameTextBox.isDisplayed(), "UserName textbox should be displayed");
         sf.assertEquals(driver.getTitle(), "Swag", "Swag Labs title should be matched");
         userNameTextBox.sendKeys("standard_user");
-        Thread.sleep(3000);
         sf.assertAll();
         driver.close();
     }
