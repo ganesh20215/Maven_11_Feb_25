@@ -9,7 +9,6 @@ public class DependsOnMethodsExample {
     @Test()
     public void verifyLogin() {
         Assert.assertTrue(false);
-        System.out.println("Verify Login");
     }
 
     @Test(dependsOnMethods = "verifyLogin")
