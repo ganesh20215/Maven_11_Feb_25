@@ -27,7 +27,6 @@ public class BasicOfTestNG {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.flipkart.in");
         driver.manage().window().maximize();
-        Thread.sleep(3000);
         driver.close();
     }
 }
