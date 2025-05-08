@@ -11,7 +11,6 @@ public class BasicOfTestNG {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.edso.in");
         driver.manage().window().maximize();
-        Thread.sleep(3000);
         driver.close();
     }
 
